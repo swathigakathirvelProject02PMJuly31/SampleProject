@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="30.961954">
+<testcase classname="To search the products in the amazon App" name="To search the products and add to cart1" time="17.01889">
+<system-out><![CDATA[Given The user should successfully log into home page.......................passed
+When The user should search the products in search in textbox...............passed
+And The user should select the products as"iphone"..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="To search the products in the amazon App" name="To search the products and add to cart2" time="13.943064">
+<system-out><![CDATA[Given The user should successfully log into home page.......................passed
+When The user should search the products in searchtextbox...................passed
+Then the user should get the product name"redmi9"...........................passed
+]]></system-out>
+</testcase>
+</testsuite>

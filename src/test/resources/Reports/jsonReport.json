@@ -1,0 +1,191 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8871785900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user should successfully log into home page",
+            "match": {
+              "location": "LoginSteps.the_user_should_successfully_log_into_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-14T07:39:58.714Z",
+        "before": [
+          {
+            "result": {
+              "duration": 491000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.beforescenario()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "To search the products and add to cart1",
+        "description": "",
+        "id": "to-search-the-products-in-the-amazon-app;to-search-the-products-and-add-to-cart1",
+        "after": [
+          {
+            "result": {
+              "duration": 287469500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.afterscenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7417500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user should search the products in search in textbox",
+            "match": {
+              "location": "LoginSteps.the_user_should_search_the_products_in_search_in_textbox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7832870000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user should select the products as\"iphone\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"iphone\"",
+                  "offset": 38
+                }
+              ],
+              "location": "LoginSteps.the_user_should_select_the_products_as(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11404837500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user should successfully log into home page",
+            "match": {
+              "location": "LoginSteps.the_user_should_successfully_log_into_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-14T07:40:15.735Z",
+        "before": [
+          {
+            "result": {
+              "duration": 60700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.beforescenario()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "To search the products and add to cart2",
+        "description": "",
+        "id": "to-search-the-products-in-the-amazon-app;to-search-the-products-and-add-to-cart2",
+        "after": [
+          {
+            "result": {
+              "duration": 231582800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.afterscenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 883200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "The user should search the products in searchtextbox",
+            "match": {
+              "location": "LoginSteps.the_user_should_search_the_products_in_searchtextbox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2303557700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user should get the product name\"redmi9\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"redmi9\"",
+                  "offset": 36
+                }
+              ],
+              "location": "LoginSteps.the_user_should_get_the_product_name(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "To search the products in the amazon App",
+    "description": "",
+    "id": "to-search-the-products-in-the-amazon-app",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login.feature",
+    "tags": []
+  }
+]
